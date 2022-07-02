@@ -1,5 +1,3 @@
-a = input()
-a1, a2, a3 = list(map(int, input().split()))
+a1, a2 = list(map(int, input().split()))
 
-
-
+print((a1 - 1) * (a2 - 1))
